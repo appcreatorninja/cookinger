@@ -1,0 +1,164 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="recipies.css" type="text/css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    #myInput {
+      background-image: url('/css/searchicon.png');
+      background-position: 10px 12px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
+
+    #myUL {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #myUL li a {
+      border: 1px solid #ddd;
+      margin-top: -1px;
+      /* Prevent double borders */
+      background-color: #f6f6f6;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
+      display: block
+    }
+
+    #myUL li a.header {
+      background-color: #95d095;
+      color: #d9534f;
+      cursor: default;
+    }
+
+    #myUL li a:hover:not(.header) {
+      background-color: #eee;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+  <nav class="navbar navbar-expand-md navbar-light bg-faded">
+    <div class="container">
+      <a class="navbar-brand-left text-success" href="index.html">
+        <img src="images\cookinger_logo_animated---Copy.gif"> </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recipes.html">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="games.html">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <a href="recipes.html">Search</a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <h2 class="recipieTitle">Recipe Book</h2>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for recipe names.." title="Type in a name">
+  <div class="container">
+    <div class="btn-group">
+      <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Allergy Filters </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#noMilk">No Milk</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#noNuts">No Nuts</a>
+      </div>
+    </div>
+  </div>
+  <ul id="myUL">
+    <li class="">
+      <a href="#" class="header">A</a>
+    </li>
+    <li>
+      <a href="http://www.cookingchanneltv.com/recipes/nigella-lawson/allspice-gravy-1953923">All Spice Gravy</a>
+    </li>
+    <li>
+      <a href="http://www.cookingchanneltv.com/recipes/giada-de-laurentiis/almond-blueberry-cookies-1917138">Almond and Blueberry Cookies</a>
+    </li>
+    <li>
+      <a href="http://www.cookingchanneltv.com/recipes/aloo-paratha-2012463">Aloo Paratha</a>
+    </li>
+    <li>
+      <a href="#" class="header">B</a>
+    </li>
+    <li>
+      <a href="#">Bean Salad</a>
+    </li>
+    <li>
+      <a href="http://www.cookingchanneltv.com/recipes/baby-lamb-brodettato-2013364">Baby Lamb Curry</a>
+      <a href="http://www.cookingchanneltv.com/recipes/bbq-chicken-1946040">Barbucue Chicken</a>
+    </li>
+    <li>
+      <a href="#">Bread</a>
+    </li>
+    <li>
+      <a href="#" class="header">C</a>
+    </li>
+    <li>
+      <a href="http://www.cookingchanneltv.com/recipes/cabbage-rolls0-3075318">Cabbage Roll</a>
+    </li>
+    <li>
+      <a href="#">Ceasar Salad</a>
+    </li>
+    <li>
+      <a href="#">Californian Roll</a>
+    </li>
+    <li>
+      <a href="#">Cashew Curry</a>
+    </li>
+  </ul>
+  <script>
+    function myFunction() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+    
+            }
+        }
+    }
+  </script>
+</body>
+
+</html>

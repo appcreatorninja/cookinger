@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16px"
+   height="16px"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="Icon.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="10.764706"
+     inkscape:cx="14.993876"
+     inkscape:cy="3.7663143"
+     inkscape:document-units="px"
+     inkscape:current-layer="g831"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true" />
+  <defs
+     id="defs3726" />
+  <metadata
+     id="metadata3729">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="g831">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.13428473px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#d65500;fill-opacity:1;stroke:#2b0000;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
+         x="-8.0362473"
+         y="9.856863"
+         id="text861"
+         transform="matrix(0.63798464,-0.77025162,0.74895306,0.66320984,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan859"
+           x="-8.0362473"
+           y="9.856863"
+           style="fill:#d65500;fill-opacity:1;stroke:#2b0000;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none">Cookinger</tspan></text>
+      <g
+         id="g883"
+         transform="matrix(0.80349979,0,0,0.83020187,1.0190151,1.2446004)">
+        <ellipse
+           transform="rotate(44.748279)"
+           ry="2.0169504"
+           rx="1.4253113"
+           cy="-7.1734328"
+           cx="11.458059"
+           id="path865"
+           style="fill:#999999;fill-opacity:1;stroke:#999999;stroke-width:0.02894916;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path879"
+           d="m 11.62669,4.077716 c 0,0 -0.164219,0.8867815 -0.853938,1.0181565 -0.689718,0.131375 -2.5946564,2.7260319 -2.5946564,2.7260319 L 2.299063,14.522031 v 0 c 0,0 -0.3612813,0.78825 0.5255001,0.492656 0.8867815,-0.295594 -0.1642187,0.03284 -0.1642187,0.03284 L 2.9559382,14.949 3.0873132,14.883312 8.802127,8.4459358 c 0,0 2.331907,-2.1020005 2.430438,-2.6603444 0.09853,-0.5583439 1.116688,-1.1495315 1.116688,-1.1495315 z"
+           style="opacity:1;vector-effect:none;fill:#999999;fill-opacity:1;stroke:#999999;stroke-width:0.03543783;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>
